@@ -1,6 +1,7 @@
 
 double* BubbleSort(double* numbers, int count)
 {
+
     double change_val;
     
     for (int i = 0; i < count; i++)
@@ -21,6 +22,7 @@ double* BubbleSort(double* numbers, int count)
 
 double* SelectionSort(double* numbers, int count)
 {
+    
     double change_val;
     
     int max_index = 0;
